@@ -104,7 +104,7 @@ export const PartnerSection: React.FC = () => {
       <div 
         ref={hoverContainerRef}
         onMouseMove={handleMouseMove}
-        className="opacity-0 animate-target relative overflow-hidden w-full max-w-7xl py-48 rounded-[40px] border border-[#F1F3F1] shadow-[0_4px_30px_rgba(0,0,0,0.03)] bg-white text-center flex flex-col items-center justify-center select-none cursor-crosshair"
+        className="opacity-0 animate-target relative overflow-hidden w-full max-w-7xl py-20 lg:py-48 rounded-[40px] border border-[#F1F3F1] shadow-[0_4px_30px_rgba(0,0,0,0.03)] bg-white text-center flex flex-col items-center justify-center select-none cursor-crosshair"
       >
         {/* Render Spawning Thumbnails */}
         {thumbnails.map((t) => (

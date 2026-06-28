@@ -35,7 +35,7 @@ const ProjectItem: React.FC<{ project: Project }> = ({ project }) => {
 
   const Content = (
     <>
-      <div className="ml-20 md:ml-28 mb-4">
+      <div className="ml-0 sm:ml-20 md:ml-28 mb-4">
         <h3 className="font-serif text-2xl md:text-3xl font-semibold text-[#051A24] tracking-tight inline-flex items-center gap-1.5 group-hover:text-[#4D6D47] transition-colors duration-300">
           {project.name}
           {project.link && (
